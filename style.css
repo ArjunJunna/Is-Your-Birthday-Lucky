@@ -108,6 +108,19 @@ input {
   font-size: 1.5rem;
   z-index: 1;
 }
+.message {
+  display: none;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 132, 132, 0.753);
+  border-radius: 4px;
+  padding: 2rem;
+  position: fixed;
+  left: 50%;
+  bottom: 35%;
+  font-size: 1.5rem;
+  z-index: 1;
+}
 #policy-card.show {
   visibility: visible;
 }
