@@ -40,6 +40,7 @@ reset.addEventListener('click', function () {
   birthDate.value = '';
   output.innerText = '';
   luckyNumber.value = '';
+  hideMessage();
 });
 policy.addEventListener('click', function () {
   policyCard.className = 'show';
